@@ -7,7 +7,7 @@ description: Software Engineer | Graduate Student | Ambitious Problem Solver
 profile:
   align: right
   image: isaacb_headshot.jpg
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
 
