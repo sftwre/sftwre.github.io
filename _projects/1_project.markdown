@@ -1,7 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: GLM API
+description: Deploying an ML model for consumption using Flask
+tech: Python | Flask | Docker
 img: /assets/img/12.jpg
 importance: 1
 ---

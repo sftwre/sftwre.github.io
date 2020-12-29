@@ -1,7 +1,8 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: Twitter Style Transfer
+description: Using a VAE to generate text in the style of @realDonaldTrump
+tech: Python | PyTorch
 img: /assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3

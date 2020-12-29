@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Unsupervised image classifier
+description: Building an image classifier with no labels !
 img:
-importance: 3
+importance: 4
 ---
 
 Every project has a beautiful feature showcase page.
