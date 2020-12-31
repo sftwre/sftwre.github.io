@@ -5,7 +5,6 @@ permalink: /
 description: Software Engineer | Graduate Student | Ambitious Problem Solver
 
 profile:
-  align: right
   image: isaacb_headshot.jpg
 news: false  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
@@ -17,9 +16,10 @@ unsupervised-deep learning for classification of sonar imagery.
 I am also pursuing an M.S. in Computer Science from UT Austin, where I am focusing in 
 Artificial Intelligence and Machine Learning.
 
-<a class="btn btn-primary" href="#social"> Contact Me </a>
-<a class="btn btn-primary" href="./assets/pdf/utcs_isaacb_resume.pdf"> My Resume </a>
-
+<p class="cta_buttons">
+    <a class="btn btn-primary" href="#social"> Contact Me </a>
+    <a class="btn btn-danger" href="./assets/pdf/utcs_isaacb_resume.pdf"> My Resume </a>
+</p>
 
 <div id="projects" class="projects">
     <header>
