@@ -7,8 +7,7 @@ layout: default
    {% if page.profile %}
     <div class="profile float-left-top">
       {% if page.profile.image %}
-        <img class="img-fluid z-depth-1" alt="profile picture of Isaac Buitrago"
-             width="" height="" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}"/>
+        <img class="img-fluid z-depth-1" alt="profile picture of Isaac Buitrago" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}"/>
       {% endif %}
     </div>
     {% endif %}
@@ -16,7 +15,7 @@ layout: default
 
   <article class="bio">
     <header class="post-header">
-      <h1 class="post-title">
+      <h1 class="landing_header">
        {% if site.title == blank %}{{ site.title }}{% else %}<span>{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% endif %}
       </h1>
        <p class="desc">{{ page.description }}</p>

@@ -63,6 +63,26 @@ a, table.table a {
   }
 }
 
+// mobile style for content on landing page
+@media (max-width: 575px) {
+  .profile {
+    img {
+      width: 50%;
+      height: 50%;
+      position: relative;
+      left: 60px;
+    }
+  }
+  // header elements on the landing page
+  .landing_header {
+      margin-left: 50px;
+  }
+
+  p.desc{
+    margin-left: 30px;
+  }
+}
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
@@ -90,6 +110,17 @@ article.bio {
   }
 }
 
+// mobile style rules for CTA buttons
+@media (max-width: 575px) {
+  .cta_buttons{
+    .btn {
+      width: 80%;
+      position: relative;
+      left: 8%;
+    }
+  }
+}
+
 // Projects
 div.projects{
   position: relative;
@@ -100,7 +131,7 @@ div.projects{
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid $black-color;
   opacity: 0.95;
   background-color: var(--global-bg-color);
 }
@@ -137,6 +168,8 @@ div.projects{
     }
   }
 }
+
+
 
 .navbar-toggler {
   .icon-bar {
@@ -192,14 +225,22 @@ div.projects{
   .contact-icon {
     font-size: 4rem;
     a {
-      color: var(--global-icon-color);
+      color: var(--global-icon-color) !important;
       &:hover {
-        color: var(--global-theme-color);
+        color: var(--global-theme-color) !important;
       }
     }
   }
   .contact-note {
-    font-size: 0.8rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .social {
+    .contact-icon {
+      font-size: 3rem;
+    }
   }
 }
 
@@ -302,6 +343,35 @@ footer.sticky-bottom {
   }
   .card img {
     width: 100%;
+  }
+}
+
+// mobile style rules for projects grid
+@media (max-width: 575px) {
+  div.projects {
+    position: relative;
+    bottom: 11em;
+    .grid {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .grid-item {
+      position: relative;
+      width: 20em;
+    }
+    img.project_thumbnail {
+      display: none;
+    }
+    h2.card-title {
+      font-weight: 200;
+      font-size: 1.5em;
+    }
+    h2.card-text {
+      font-weight: 200;
+      font-size: .5em;
+    }
   }
 }
 

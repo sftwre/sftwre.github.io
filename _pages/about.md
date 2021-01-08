@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Software Engineer | Graduate Student | Ambitious Problem Solver
+description: ML | Graduate Student | Software Engineer 
 
 profile:
   image: isaacb_headshot.jpg
@@ -23,12 +23,12 @@ Artificial Intelligence and Machine Learning.
 
 <div id="projects" class="projects">
     <header>
-        <h1>
+        <h1 class="landing_header">
             Projects
         </h1>
     </header>
         
-    <div class="grid">
+    <div class="grid container">
         
       {% assign sorted_projects = site.projects | sort: "importance" %}
       {% for project in sorted_projects %}
@@ -40,7 +40,7 @@ Artificial Intelligence and Machine Learning.
         {% endif %}
           <div class="card hoverable">
             {% if project.img %}
-            <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+            <img class="project_thumbnail" src="{{ project.img | relative_url }}" alt="project thumbnail">
             {% endif %}
             <div class="card-body">
               <h2 class="card-title ">{{ project.title }}</h2>
